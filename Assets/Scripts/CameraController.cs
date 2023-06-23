@@ -1,3 +1,4 @@
+using System.Collections;
 using UnityEngine;
 
 public class CameraController : MonoBehaviour
@@ -12,7 +13,8 @@ public class CameraController : MonoBehaviour
     public float resetDelayCenterZone = 1f;
     public float centerZoneSize = 100f;
     
-    
+    public Animator cameraAnimator;
+
 
     private Quaternion startRotation;
     private Quaternion targetRotation;
@@ -24,12 +26,43 @@ public class CameraController : MonoBehaviour
     {
         startPosition = transform.position;
         startRotation = transform.rotation;
+        
+        cameraAnimator = GetComponent<Animator>();
+        GetComponent<Animator>().enabled = false;
     }
 
     void Update()
     {
+        if (Input.GetKeyDown(KeyCode.W))
+        {
+            if (!isReturning)
+            {
+                isReturning = false;
+                StartCoroutine("AnimatorEnabler");
+                cameraAnimator.SetBool("MoveCam", true);
+               
+            }
+            else
+            {
+                isReturning = true;
+                StartCoroutine("AnimatorDisabler");
+                cameraAnimator.SetBool("MoveCam", false);
+                
+            }
+        }
         RotateCamera();
         ReturnToStart();
+    }
+    IEnumerator AnimatorEnabler()
+    {
+        yield return new WaitForSeconds(0.1f);
+        GetComponent<Animator>().enabled = true;
+    }
+
+    IEnumerator AnimatorDisabler()
+    {
+        yield return new WaitForSeconds(0.2f);
+        GetComponent<Animator>().enabled = false;
     }
 
     void RotateCamera()
@@ -140,4 +173,5 @@ public class CameraController : MonoBehaviour
             }
         }
     }
+
 }
