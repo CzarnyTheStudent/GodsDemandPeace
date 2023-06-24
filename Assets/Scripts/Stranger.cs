@@ -1,19 +1,6 @@
 using UnityEngine;
 using UnityEngine.Serialization;
 
-public enum Marks
-{
-    Eye,
-    Sun,
-    Moon,
-    Axe,
-    Tree,
-    Snake,
-    Cow,
-    Maw,
-    Crown,
-}
-
 public enum BodyType
 {
     Wolf = 0,

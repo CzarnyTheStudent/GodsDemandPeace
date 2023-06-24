@@ -7,6 +7,9 @@ TagManager:
   - Dice
   - Board
   - Number
+  - Mark
+  - GoodDice
+  - BadDice
   layers:
   - Default
   - TransparentFX

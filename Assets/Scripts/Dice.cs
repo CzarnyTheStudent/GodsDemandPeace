@@ -26,7 +26,6 @@ public class Dice : MonoBehaviour
         {
             GameObject highestObject = GetHighestObject(objectsToCompare);
             cubeValue = highestObject.GetComponent<Value>().valueY;
-            Debug.Log("Najwyższy obiekt: " + highestObject.name);
         }
     }
     
