@@ -8,11 +8,13 @@ public class Choose1 : MonoBehaviour
     public Marks[] enumsToCheck;
     public Stranger anotherScript;
     public Metrics metrics;
+    public CameraController cameraController;
 
-    private void Update()
+    public void BeingClicable()
     {
-        if (Input.GetKeyDown(KeyCode.Space))
+        if (cameraController.isBookTime)
         {
+            
             if (anotherScript != null)
             {
                 Marks[] enumValue = anotherScript.GetEnumValue();
