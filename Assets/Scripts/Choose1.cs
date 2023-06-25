@@ -7,6 +7,7 @@ public class Choose1 : MonoBehaviour
    
     public Marks[] enumsToCheck;
     public Stranger anotherScript;
+    public Metrics metrics;
 
     private void Update()
     {
@@ -33,16 +34,26 @@ public class Choose1 : MonoBehaviour
 
                 if (isMatching)
                 {
-                    Debug.Log("Przynajmniej jedno dopasowanie enum zostało znalezione!");
+                   // Debug.Log("Przynajmniej jedno dopasowanie enum zostało znalezione!");
+                   metrics.CurrentControl++;
+                   if (metrics.CurrentControl > 10)
+                   {
+                       Debug.Log("GameOver");
+                   }
                 }
                 else
                 {
-                    Debug.Log("Nie znaleziono pasującego enum w obiekcie!");
+                    //Nie znaleziono pasującego enum w obiekcie!"
+                    metrics.CurrentControl--;
+                    if (metrics.CurrentControl < -10)
+                    {
+                        Debug.Log("GameOver");
+                    }
                 }
             }
             else
             {
-                Debug.Log("AnotherScript nie został przypisany do skryptu EnumChecker!");
+              
             }
         }
     }

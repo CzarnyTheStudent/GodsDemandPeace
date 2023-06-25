@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 
 [CreateAssetMenu]
@@ -33,5 +34,11 @@ public class Metrics : ScriptableObject
     public void DecreaseDeusVult(int amount)
     {
         CurrentDeusVult = Mathf.Clamp(CurrentDeusVult - amount, DeusVultMin, DeusVultMax);
+    }
+
+    void OnDisable()
+    {
+        CurrentControl = 0;
+        CurrentDeusVult = 0;
     }
 }
