@@ -25,7 +25,7 @@ RenderSettings:
   m_AmbientGroundColor: {r: 0.047, g: 0.043, b: 0.035, a: 1}
   m_AmbientIntensity: 0
   m_AmbientMode: 3
-  m_SubtractiveShadowColor: {r: 0.058686357, g: 0.058686357, b: 0.1981132, a: 1}
+  m_SubtractiveShadowColor: {r: 0.046057317, g: 0.046057317, b: 0.21698111, a: 1}
   m_SkyboxMaterial: {fileID: 2100000, guid: 51b74d7bad397457d883c5940f7664d8, type: 2}
   m_HaloStrength: 0.5
   m_FlareStrength: 1
@@ -270,7 +270,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enumsToCheck: 0000000002000000
-  anotherScript: {fileID: 11400000, guid: a1236caa7e015ee418bf8020beac5dc9, type: 2}
+  anotherScript:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
   metrics: {fileID: 11400000, guid: 32e78b32bb94a4847a8962486009ee89, type: 2}
   cameraController: {fileID: 330585549}
 --- !u!1 &68020996
