@@ -1,7 +1,7 @@
 using UnityEngine;
 using UnityEngine.Serialization;
 
-public enum BodyType
+public enum BodyType : int
 {
     Wolf = 0,
     Beak = 1, 
@@ -44,14 +44,12 @@ public class Stranger : ScriptableObject
     public Stranger stranger;
     public string nameClient;
     public Marks[] enumValue;
-    
+    public BodyType bodyType;
 
     public Marks[] GetEnumValue()
     {
         return enumValue;
     }
-
-    public int number ;
 
     public Question[] lines;
     public LineAngry[] angryLines;

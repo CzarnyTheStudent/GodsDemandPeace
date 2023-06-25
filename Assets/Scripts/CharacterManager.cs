@@ -8,13 +8,25 @@ public class CharacterManager : MonoBehaviour
 {
     public List<Stranger> visitorsList = new List<Stranger>();
     public GameObject[] skins;
+    public Animator anim1;
+    public Animator anim2;
+    public Animator anim3;
+    public Animator anim4;
+    
 
     private Stranger chosenStranger = null;
-    
+
+    private void Awake()
+    {
+        anim1.SetBool("Go", false);
+        anim2.SetBool("Go", false);
+        anim3.SetBool("Go", false);
+        anim4.SetBool("Go", false);
+    }
 
     private void Update()
     {
-        chosenStranger = GetRandomClient();
+        
     }
 
     public Stranger GetRandomClient()
@@ -41,7 +53,9 @@ public class CharacterManager : MonoBehaviour
 
     public void ShowCharacter()
     {
-        int i = chosenStranger.number;
+        
+        chosenStranger = GetRandomClient();
+        int i = (int)chosenStranger.bodyType;
         switch(i)
         {
             case 0: 
@@ -52,21 +66,21 @@ public class CharacterManager : MonoBehaviour
                 skins[3].SetActive(false);
                 break;
             case 1:
-                Debug.Log("Beak");
+                Debug.Log("Deer");
                 skins[1].SetActive(true);
                 skins[0].SetActive(false);
                 skins[2].SetActive(false);
                 skins[3].SetActive(false);
                 break;
             case 2:
-                Debug.Log("Beak");
+                Debug.Log("Ox");
                 skins[1].SetActive(false);
                 skins[0].SetActive(false);
                 skins[2].SetActive(true);
                 skins[3].SetActive(false);
                 break;
             case 3:
-                Debug.Log("Beak");
+                Debug.Log("Boar");
                 skins[1].SetActive(false);
                 skins[0].SetActive(false);
                 skins[2].SetActive(false);
@@ -76,9 +90,19 @@ public class CharacterManager : MonoBehaviour
                 Debug.Log("NOTHING");
                 break;
         }
+        
+        anim1.SetBool("Go", true);
+        anim2.SetBool("Go", true);
+        anim3.SetBool("Go", true);
+        anim4.SetBool("Go", true);
     }
-    
-    
-    
-    
+
+    public void Exit()
+    {
+        anim1.SetBool("Go", false);
+        anim2.SetBool("Go", false);
+        anim3.SetBool("Go", false);
+        anim4.SetBool("Go", false);
+    }
+
 }

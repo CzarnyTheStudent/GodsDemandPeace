@@ -1,8 +1,9 @@
+using System;
 using System.Collections.Generic;
 using Unity.VisualScripting;
 using UnityEngine;
 
-public enum Marks : int
+public enum Marks
 {
     Eye = 0,
     Sun = 1,
@@ -14,13 +15,37 @@ public enum Marks : int
     Maw = 7,
     Crown = 8,
 }
+[Flags]
+public enum dupa
+{
+    Blada = 1 << 0,
+    Big = 1 << 1,
+    Smol = 1 << 2,
+    Medium = 1 << 3
+}
+
+public static class DupaExtensions
+{
+    public static bool HasFlagFast(this dupa value, dupa flag)
+    {
+        return (value & flag) != 0;
+    }
+}
+
 public class MarkScript : MonoBehaviour
 {
-
+    //public dupa dupa;
     public Marks mark;
     public int[] chooseMade;
     public TrackedMarks trackedMarks;
     public List<GameObject> dice = new List<GameObject>();
+
+
+    private void Start()
+    {
+        //if(dupa.HasFlagFast(dupa.Blada | dupa.Medium))
+            //return;
+    }
 
     private void Update()
     {
