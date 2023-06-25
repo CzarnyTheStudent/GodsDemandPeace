@@ -10,7 +10,15 @@ public class Choose : MonoBehaviour
     public Metrics metrics;
     public CameraController cameraController;
     private int iiii;
+    public int changeTheV;
 
+
+
+    public void changeDeusV()
+    {
+        metrics.CurrentDeusVult += changeTheV;
+    }
+    
     public void BeingClicable()
     {
         if (cameraController.isBookTime)

@@ -277,6 +277,7 @@ MonoBehaviour:
   - {fileID: 11400000, guid: a1236caa7e015ee418bf8020beac5dc9, type: 2}
   metrics: {fileID: 11400000, guid: 32e78b32bb94a4847a8962486009ee89, type: 2}
   cameraController: {fileID: 330585549}
+  changeTheV: 1
 --- !u!1 &68020996
 GameObject:
   m_ObjectHideFlags: 0
@@ -436,7 +437,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ca0cebffca5cac04da7b6039c64576e5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  enumsToCheck: 
+  enumsToCheck: 0700000008000000
   anotherScript:
   - {fileID: 11400000, guid: bd238699483d68743b54ecf8ac879414, type: 2}
   - {fileID: 11400000, guid: a24299d3267f43e488ee32b5b53fdd53, type: 2}
@@ -444,6 +445,7 @@ MonoBehaviour:
   - {fileID: 11400000, guid: a1236caa7e015ee418bf8020beac5dc9, type: 2}
   metrics: {fileID: 11400000, guid: 32e78b32bb94a4847a8962486009ee89, type: 2}
   cameraController: {fileID: 330585549}
+  changeTheV: 1
 --- !u!1 &86088754 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 388d12f5261aa914ba1ce3e1e4806525,
@@ -809,7 +811,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ca0cebffca5cac04da7b6039c64576e5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  enumsToCheck: 
+  enumsToCheck: 0500000007000000
   anotherScript:
   - {fileID: 11400000, guid: bd238699483d68743b54ecf8ac879414, type: 2}
   - {fileID: 11400000, guid: a24299d3267f43e488ee32b5b53fdd53, type: 2}
@@ -817,6 +819,7 @@ MonoBehaviour:
   - {fileID: 11400000, guid: a1236caa7e015ee418bf8020beac5dc9, type: 2}
   metrics: {fileID: 11400000, guid: 32e78b32bb94a4847a8962486009ee89, type: 2}
   cameraController: {fileID: 330585549}
+  changeTheV: 0
 --- !u!1 &138792568
 GameObject:
   m_ObjectHideFlags: 0
@@ -2171,7 +2174,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ca0cebffca5cac04da7b6039c64576e5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  enumsToCheck: 
+  enumsToCheck: 0100000006000000
   anotherScript:
   - {fileID: 11400000, guid: bd238699483d68743b54ecf8ac879414, type: 2}
   - {fileID: 11400000, guid: a24299d3267f43e488ee32b5b53fdd53, type: 2}
@@ -2179,6 +2182,7 @@ MonoBehaviour:
   - {fileID: 11400000, guid: a1236caa7e015ee418bf8020beac5dc9, type: 2}
   metrics: {fileID: 11400000, guid: 32e78b32bb94a4847a8962486009ee89, type: 2}
   cameraController: {fileID: 330585549}
+  changeTheV: -1
 --- !u!1 &455115376
 GameObject:
   m_ObjectHideFlags: 0
@@ -2655,7 +2659,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ca0cebffca5cac04da7b6039c64576e5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  enumsToCheck: 
+  enumsToCheck: 0300000007000000
   anotherScript:
   - {fileID: 11400000, guid: bd238699483d68743b54ecf8ac879414, type: 2}
   - {fileID: 11400000, guid: a24299d3267f43e488ee32b5b53fdd53, type: 2}
@@ -2663,6 +2667,7 @@ MonoBehaviour:
   - {fileID: 11400000, guid: a1236caa7e015ee418bf8020beac5dc9, type: 2}
   metrics: {fileID: 11400000, guid: 32e78b32bb94a4847a8962486009ee89, type: 2}
   cameraController: {fileID: 330585549}
+  changeTheV: -1
 --- !u!1 &623575983
 GameObject:
   m_ObjectHideFlags: 0
@@ -3058,7 +3063,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ca0cebffca5cac04da7b6039c64576e5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  enumsToCheck: 
+  enumsToCheck: 0000000005000000
   anotherScript:
   - {fileID: 11400000, guid: bd238699483d68743b54ecf8ac879414, type: 2}
   - {fileID: 11400000, guid: a24299d3267f43e488ee32b5b53fdd53, type: 2}
@@ -3066,6 +3071,7 @@ MonoBehaviour:
   - {fileID: 11400000, guid: a1236caa7e015ee418bf8020beac5dc9, type: 2}
   metrics: {fileID: 11400000, guid: 32e78b32bb94a4847a8962486009ee89, type: 2}
   cameraController: {fileID: 330585549}
+  changeTheV: 1
 --- !u!1 &668465918
 GameObject:
   m_ObjectHideFlags: 0
@@ -3553,7 +3559,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ca0cebffca5cac04da7b6039c64576e5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  enumsToCheck: 
+  enumsToCheck: 030000000400000007000000
   anotherScript:
   - {fileID: 11400000, guid: bd238699483d68743b54ecf8ac879414, type: 2}
   - {fileID: 11400000, guid: a24299d3267f43e488ee32b5b53fdd53, type: 2}
@@ -3561,6 +3567,7 @@ MonoBehaviour:
   - {fileID: 11400000, guid: a1236caa7e015ee418bf8020beac5dc9, type: 2}
   metrics: {fileID: 11400000, guid: 32e78b32bb94a4847a8962486009ee89, type: 2}
   cameraController: {fileID: 330585549}
+  changeTheV: -1
 --- !u!1 &767371831
 GameObject:
   m_ObjectHideFlags: 0
@@ -4124,7 +4131,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ca0cebffca5cac04da7b6039c64576e5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  enumsToCheck: 
+  enumsToCheck: 0400000005000000
   anotherScript:
   - {fileID: 11400000, guid: bd238699483d68743b54ecf8ac879414, type: 2}
   - {fileID: 11400000, guid: a24299d3267f43e488ee32b5b53fdd53, type: 2}
@@ -4132,6 +4139,7 @@ MonoBehaviour:
   - {fileID: 11400000, guid: a1236caa7e015ee418bf8020beac5dc9, type: 2}
   metrics: {fileID: 11400000, guid: 32e78b32bb94a4847a8962486009ee89, type: 2}
   cameraController: {fileID: 330585549}
+  changeTheV: 0
 --- !u!1 &808179016
 GameObject:
   m_ObjectHideFlags: 0
@@ -4563,7 +4571,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ca0cebffca5cac04da7b6039c64576e5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  enumsToCheck: 
+  enumsToCheck: 040000000000000001000000
   anotherScript:
   - {fileID: 11400000, guid: bd238699483d68743b54ecf8ac879414, type: 2}
   - {fileID: 11400000, guid: a24299d3267f43e488ee32b5b53fdd53, type: 2}
@@ -4571,6 +4579,7 @@ MonoBehaviour:
   - {fileID: 11400000, guid: a1236caa7e015ee418bf8020beac5dc9, type: 2}
   metrics: {fileID: 11400000, guid: 32e78b32bb94a4847a8962486009ee89, type: 2}
   cameraController: {fileID: 330585549}
+  changeTheV: 0
 --- !u!1 &883379178
 GameObject:
   m_ObjectHideFlags: 0
@@ -5819,7 +5828,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ca0cebffca5cac04da7b6039c64576e5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  enumsToCheck: 
+  enumsToCheck: 0400000008000000
   anotherScript:
   - {fileID: 11400000, guid: bd238699483d68743b54ecf8ac879414, type: 2}
   - {fileID: 11400000, guid: a24299d3267f43e488ee32b5b53fdd53, type: 2}
@@ -5827,6 +5836,7 @@ MonoBehaviour:
   - {fileID: 11400000, guid: a1236caa7e015ee418bf8020beac5dc9, type: 2}
   metrics: {fileID: 11400000, guid: 32e78b32bb94a4847a8962486009ee89, type: 2}
   cameraController: {fileID: 330585549}
+  changeTheV: 1
 --- !u!1 &1168807815
 GameObject:
   m_ObjectHideFlags: 0
@@ -7304,7 +7314,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ca0cebffca5cac04da7b6039c64576e5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  enumsToCheck: 
+  enumsToCheck: 0200000008000000
   anotherScript:
   - {fileID: 11400000, guid: bd238699483d68743b54ecf8ac879414, type: 2}
   - {fileID: 11400000, guid: a24299d3267f43e488ee32b5b53fdd53, type: 2}
@@ -7312,6 +7322,7 @@ MonoBehaviour:
   - {fileID: 11400000, guid: a1236caa7e015ee418bf8020beac5dc9, type: 2}
   metrics: {fileID: 11400000, guid: 32e78b32bb94a4847a8962486009ee89, type: 2}
   cameraController: {fileID: 330585549}
+  changeTheV: 1
 --- !u!1001 &1357953544
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8007,7 +8018,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ca0cebffca5cac04da7b6039c64576e5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  enumsToCheck: 
+  enumsToCheck: 0000000001000000
   anotherScript:
   - {fileID: 11400000, guid: bd238699483d68743b54ecf8ac879414, type: 2}
   - {fileID: 11400000, guid: a24299d3267f43e488ee32b5b53fdd53, type: 2}
@@ -8015,6 +8026,7 @@ MonoBehaviour:
   - {fileID: 11400000, guid: a1236caa7e015ee418bf8020beac5dc9, type: 2}
   metrics: {fileID: 11400000, guid: 32e78b32bb94a4847a8962486009ee89, type: 2}
   cameraController: {fileID: 330585549}
+  changeTheV: 0
 --- !u!1 &1579140086
 GameObject:
   m_ObjectHideFlags: 0
@@ -8416,7 +8428,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ca0cebffca5cac04da7b6039c64576e5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  enumsToCheck: 
+  enumsToCheck: 0300000006000000
   anotherScript:
   - {fileID: 11400000, guid: bd238699483d68743b54ecf8ac879414, type: 2}
   - {fileID: 11400000, guid: a24299d3267f43e488ee32b5b53fdd53, type: 2}
@@ -8424,6 +8436,7 @@ MonoBehaviour:
   - {fileID: 11400000, guid: a1236caa7e015ee418bf8020beac5dc9, type: 2}
   metrics: {fileID: 11400000, guid: 32e78b32bb94a4847a8962486009ee89, type: 2}
   cameraController: {fileID: 330585549}
+  changeTheV: -1
 --- !u!1 &1687703344
 GameObject:
   m_ObjectHideFlags: 0
@@ -8783,7 +8796,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ca0cebffca5cac04da7b6039c64576e5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  enumsToCheck: 
+  enumsToCheck: 0100000003000000
   anotherScript:
   - {fileID: 11400000, guid: bd238699483d68743b54ecf8ac879414, type: 2}
   - {fileID: 11400000, guid: a24299d3267f43e488ee32b5b53fdd53, type: 2}
@@ -8791,6 +8804,7 @@ MonoBehaviour:
   - {fileID: 11400000, guid: a1236caa7e015ee418bf8020beac5dc9, type: 2}
   metrics: {fileID: 11400000, guid: 32e78b32bb94a4847a8962486009ee89, type: 2}
   cameraController: {fileID: 330585549}
+  changeTheV: -1
 --- !u!1 &1745297316
 GameObject:
   m_ObjectHideFlags: 0
@@ -9934,7 +9948,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ca0cebffca5cac04da7b6039c64576e5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  enumsToCheck: 
+  enumsToCheck: 0200000007000000
   anotherScript:
   - {fileID: 11400000, guid: bd238699483d68743b54ecf8ac879414, type: 2}
   - {fileID: 11400000, guid: a24299d3267f43e488ee32b5b53fdd53, type: 2}
@@ -9942,6 +9956,7 @@ MonoBehaviour:
   - {fileID: 11400000, guid: a1236caa7e015ee418bf8020beac5dc9, type: 2}
   metrics: {fileID: 11400000, guid: 32e78b32bb94a4847a8962486009ee89, type: 2}
   cameraController: {fileID: 330585549}
+  changeTheV: 1
 --- !u!1 &2088339168
 GameObject:
   m_ObjectHideFlags: 0
@@ -10307,7 +10322,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ca0cebffca5cac04da7b6039c64576e5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  enumsToCheck: 
+  enumsToCheck: 0500000006000000
   anotherScript:
   - {fileID: 11400000, guid: bd238699483d68743b54ecf8ac879414, type: 2}
   - {fileID: 11400000, guid: a24299d3267f43e488ee32b5b53fdd53, type: 2}
@@ -10315,6 +10330,7 @@ MonoBehaviour:
   - {fileID: 11400000, guid: a1236caa7e015ee418bf8020beac5dc9, type: 2}
   metrics: {fileID: 11400000, guid: 32e78b32bb94a4847a8962486009ee89, type: 2}
   cameraController: {fileID: 330585549}
+  changeTheV: -1
 --- !u!1 &2134390959
 GameObject:
   m_ObjectHideFlags: 0
