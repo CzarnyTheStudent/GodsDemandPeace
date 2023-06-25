@@ -11,6 +11,7 @@ public class MainMenu : MonoBehaviour
 
     public void QuitGame()
     {
+        Debug.Log("Hasta la vista baby.");
         Application.Quit();
     }
 }
