@@ -50,6 +50,24 @@ public class CameraController : MonoBehaviour
                 
             }
         }
+        
+        if (Input.GetKeyDown(KeyCode.E))
+        {
+            if (!isReturning)
+            {
+                isReturning = false;
+                StartCoroutine("AnimatorEnabler");
+                cameraAnimator.SetBool("Book", true);
+               
+            }
+            else
+            {
+                isReturning = true;
+                StartCoroutine("AnimatorDisabler");
+                cameraAnimator.SetBool("Book", false);
+                
+            }
+        }
         RotateCamera();
         ReturnToStart();
     }

@@ -556,7 +556,7 @@ MonoBehaviour:
   resetDelay: 0.1
   resetDelayCenterZone: 0.1
   centerZoneSize: 100
-  cameraAnimator: {fileID: 0}
+  cameraAnimator: {fileID: 330585548}
 --- !u!114 &330585550
 MonoBehaviour:
   m_ObjectHideFlags: 0
