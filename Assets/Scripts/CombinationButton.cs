@@ -6,20 +6,26 @@ using UnityEngine.UI;
 public class CombinationButton : MonoBehaviour
 {
     public TrackedMarks trackedMarks;
-    public Image[] images;
-    
+    public Button[] images;
+
     private int _choose;
+
+
+    public void Awake()
+    {
+        MarkReset();
+    }
 
     public void MarkReset()
     {
         for (int i = 0; i < images.Length; i++)
         {
-            images[i].enabled = false;
+            images[i].image.color = Color.red;
         }
     }
     private void Update()
     {
-        MarkReset();
+        //MarkReset();
         //ButtonChecker();
         foreach (Marks mark in trackedMarks.trackedMarks)
         {
@@ -29,7 +35,7 @@ public class CombinationButton : MonoBehaviour
                 case Marks.Eye:
                 case Marks.Moon:
                       _choose = 1;
-                      images[0].enabled = true;
+                      images[0].image.color = Color.green;
                     break;
                 default:
                     break;
@@ -40,7 +46,7 @@ public class CombinationButton : MonoBehaviour
                 case Marks.Eye:
                 case Marks.Sun:
                 _choose = 2;
-                images[1].enabled = true;
+                //images[1].enabled = true;
                 break;
                 default:
                     break;
@@ -51,7 +57,7 @@ public class CombinationButton : MonoBehaviour
                 case Marks.Eye:
                 case Marks.Snake:
                     _choose = 3;
-                    images[2].enabled = true;
+                    //images[2].enabled = true;
                     break;
                 default:
                     break;

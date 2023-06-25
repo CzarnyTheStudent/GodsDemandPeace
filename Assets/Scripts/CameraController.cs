@@ -12,6 +12,7 @@ public class CameraController : MonoBehaviour
     public float resetDelay = 2f;
     public float resetDelayCenterZone = 1f;
     public float centerZoneSize = 100f;
+    public bool isBookTime;
     
     public Animator cameraAnimator;
 
@@ -58,14 +59,16 @@ public class CameraController : MonoBehaviour
                 isReturning = false;
                 StartCoroutine("AnimatorEnabler");
                 cameraAnimator.SetBool("Book", true);
-               
+                isBookTime = true;
+
             }
             else
             {
                 isReturning = true;
                 StartCoroutine("AnimatorDisabler");
                 cameraAnimator.SetBool("Book", false);
-                
+                isBookTime = false;
+
             }
         }
         RotateCamera();
