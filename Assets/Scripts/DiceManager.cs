@@ -16,7 +16,7 @@ public class DiceManager : MonoBehaviour
     private void Update()
     {
 
-        if (Input.GetMouseButtonUp(0))
+        if (Input.GetMouseButtonUp(1))
         {
                 ThrowDice();
             isThrowed= true;

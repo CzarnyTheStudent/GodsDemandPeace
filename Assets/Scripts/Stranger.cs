@@ -43,7 +43,13 @@ public class Stranger : ScriptableObject
  
     public Stranger stranger;
     public string nameClient;
+    public Marks[] enumValue;
+    
 
+    public Marks[] GetEnumValue()
+    {
+        return enumValue;
+    }
 
     public int number ;
 

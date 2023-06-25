@@ -13,8 +13,9 @@ MonoBehaviour:
   m_Name: Wolf
   m_EditorClassIdentifier: 
   stranger: {fileID: 11400000}
-  nameClient: Piotr
-  strangerModel: {fileID: 0}
+  nameClient: "Waldu\u015B"
+  enumValue: 00000000010000000500000008000000
+  number: 0
   lines:
   - sentence: Tak czy nie?
   angryLines:

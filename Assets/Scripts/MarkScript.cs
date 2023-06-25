@@ -1,5 +1,5 @@
-using System;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 
 public enum Marks : int
@@ -18,15 +18,14 @@ public class MarkScript : MonoBehaviour
 {
 
     public Marks mark;
-    HashSet<Marks> trackedMarks = new HashSet<Marks>();
+    public int[] chooseMade;
+    public TrackedMarks trackedMarks;
     public List<GameObject> dice = new List<GameObject>();
-   
+
     private void Update()
     {
-        foreach (Marks marks in trackedMarks)
+        foreach (Marks marks in trackedMarks.trackedMarks)
         {
-            
-            Debug.Log(marks + " is marked");
         }
     }
 
@@ -35,36 +34,35 @@ public class MarkScript : MonoBehaviour
         switch ((int)mark)
             {
                 case 0:
-                    trackedMarks.Add(Marks.Eye);
+                    trackedMarks.trackedMarks.Add(Marks.Eye);
                     break;
                 case 1:
-                    trackedMarks.Add(Marks.Sun);
+                    trackedMarks.trackedMarks.Add(Marks.Sun);
                     break;
                 case 2:
-                    trackedMarks.Add(Marks.Moon);
+                    trackedMarks.trackedMarks.Add(Marks.Moon);
                     break;
                 case 3:
-                    trackedMarks.Add(Marks.Axe);
+                    trackedMarks.trackedMarks.Add(Marks.Axe);
                     break;
                 case 4:
-                    trackedMarks.Add(Marks.Tree);
+                    trackedMarks.trackedMarks.Add(Marks.Tree);
                     break;
                 case 5:
-                    trackedMarks.Add(Marks.Snake);
+                    trackedMarks.trackedMarks.Add(Marks.Snake);
                     break;
                 case 6:
-                    trackedMarks.Add(Marks.Cow);
+                    trackedMarks.trackedMarks.Add(Marks.Cow);
                     break;
                 case 7:
-                    trackedMarks.Add(Marks.Maw);
+                    trackedMarks.trackedMarks.Add(Marks.Maw);
                     break;
                 case 8:
-                    trackedMarks.Add(Marks.Crown);
+                    trackedMarks.trackedMarks.Add(Marks.Crown);
                     break;
                 default:
                     break;
             }
-        
     }
 
     private void OnTriggerExit(Collider _dice)
@@ -72,34 +70,39 @@ public class MarkScript : MonoBehaviour
         switch ((int)mark)
         {
             case 0:
-                trackedMarks.Remove(Marks.Eye);
+                trackedMarks.trackedMarks.Remove(Marks.Eye);
                 break;
             case 1:
-                trackedMarks.Remove(Marks.Sun);
+                trackedMarks.trackedMarks.Remove(Marks.Sun);
                 break;
             case 2:
-                trackedMarks.Remove(Marks.Moon);
+                trackedMarks.trackedMarks.Remove(Marks.Moon);
                 break;
             case 3:
-                trackedMarks.Remove(Marks.Axe);
+                trackedMarks.trackedMarks.Remove(Marks.Axe);
                 break;
             case 4:
-                trackedMarks.Remove(Marks.Tree);
+                trackedMarks.trackedMarks.Remove(Marks.Tree);
                 break;
             case 5:
-                trackedMarks.Remove(Marks.Snake);
+                trackedMarks.trackedMarks.Remove(Marks.Snake);
                 break;
             case 6:
-                trackedMarks.Remove(Marks.Cow);
+                trackedMarks.trackedMarks.Remove(Marks.Cow);
                 break;
             case 7:
-                trackedMarks.Remove(Marks.Maw);
+                trackedMarks.trackedMarks.Remove(Marks.Maw);
                 break;
             case 8:
-                trackedMarks.Remove(Marks.Crown);
+                trackedMarks.trackedMarks.Remove(Marks.Crown);
                 break;
             default:
                 break;
         }
     }
+    
+    
+    
+    
+    
 }
