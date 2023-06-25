@@ -22,7 +22,7 @@ public class CombinationButton : MonoBehaviour
         for (int i = 0; i < images.Length; i++)
         {
             //images[i].image.color = Color.red;
-            images[0].gameObject.gameObject.SetActive(false);
+            images[i].gameObject.gameObject.SetActive(false);
         }
         
     }
