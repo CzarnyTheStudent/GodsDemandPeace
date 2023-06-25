@@ -34,11 +34,11 @@ public static class DupaExtensions
 
 public class MarkScript : MonoBehaviour
 {
-    //public dupa dupa;
     public Marks mark;
     public int[] chooseMade;
     public TrackedMarks trackedMarks;
     public List<GameObject> dice = new List<GameObject>();
+    public string parentObjectName;
 
 
     private void Start()
@@ -53,9 +53,45 @@ public class MarkScript : MonoBehaviour
         {
         }
     }
+    public GameObject GetParentWithoutIsTrigger(GameObject childObject)
+    {
+        Transform parentTransform = childObject.transform.parent;
 
+        while (parentTransform != null)
+        {
+            Collider parentCollider = parentTransform.GetComponent<Collider>();
+
+            if (parentCollider != null && !parentCollider.isTrigger)
+            {
+                return parentTransform.gameObject;
+            }
+
+            parentTransform = parentTransform.parent;
+        }
+
+        return null;
+    }
+    
     private void OnTriggerEnter (Collider _dice)
     {
+        if (_dice.isTrigger)
+        {
+
+            GameObject parentObject = GetParentWithoutIsTrigger(_dice.gameObject);
+            if (parentObject != null)
+            {
+                 parentObjectName = parentObject.name;
+
+                // Wyświetl nazwę nadrzędnego obiektu w konsoli
+                Debug.Log("Nazwa nadrzędnego obiektu: " + parentObjectName);
+            }
+            
+
+        }
+        
+       
+        
+        
         switch ((int)mark)
             {
                 case 0:

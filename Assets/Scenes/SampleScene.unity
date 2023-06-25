@@ -219,6 +219,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 25917589}
+        m_TargetAssemblyTypeName: Choose.BaseChoose, Assembly-CSharp
+        m_MethodName: SendOnClickEvent
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &25917587
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -360,6 +372,18 @@ MonoBehaviour:
       - m_Target: {fileID: 68021002}
         m_TargetAssemblyTypeName: Choose14, Assembly-CSharp
         m_MethodName: BeingClicable
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 68021002}
+        m_TargetAssemblyTypeName: Choose.BaseChoose, Assembly-CSharp
+        m_MethodName: SendOnClickEvent
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -601,6 +625,18 @@ MonoBehaviour:
       - m_Target: {fileID: 125901538}
         m_TargetAssemblyTypeName: Choose13, Assembly-CSharp
         m_MethodName: BeingClicable
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 125901538}
+        m_TargetAssemblyTypeName: Choose.BaseChoose, Assembly-CSharp
+        m_MethodName: SendOnClickEvent
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -863,7 +899,7 @@ Transform:
   - {fileID: 970456894}
   - {fileID: 161668525}
   m_Father: {fileID: 0}
-  m_RootOrder: 29
+  m_RootOrder: 30
   m_LocalEulerAnglesHint: {x: 152.47299, y: -99.134, z: -187.242}
 --- !u!1 &145669273
 GameObject:
@@ -1243,7 +1279,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 31
+  m_RootOrder: 32
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
 --- !u!1 &263168485
 GameObject:
@@ -1364,7 +1400,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 15
+  m_RootOrder: 16
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &278041054 stripped
 GameObject:
@@ -1730,7 +1766,7 @@ MonoBehaviour:
   returnSpeed: 5
   startPosition: {x: 0, y: 0, z: 0}
   rotationLimitX: 6
-  rotationLimitY: 4
+  rotationLimitY: 10.13
   resetDelay: 0.1
   resetDelayCenterZone: 0.1
   centerZoneSize: 100
@@ -2080,6 +2116,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 446039788}
+        m_TargetAssemblyTypeName: Choose.BaseChoose, Assembly-CSharp
+        m_MethodName: SendOnClickEvent
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &446039786
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2390,7 +2438,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 16
+  m_RootOrder: 17
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &530287452
 GameObject:
@@ -2538,6 +2586,18 @@ MonoBehaviour:
       - m_Target: {fileID: 542689567}
         m_TargetAssemblyTypeName: Choose9, Assembly-CSharp
         m_MethodName: BeingClicable
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 542689567}
+        m_TargetAssemblyTypeName: Choose.BaseChoose, Assembly-CSharp
+        m_MethodName: SendOnClickEvent
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -2720,7 +2780,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 22
+  m_RootOrder: 23
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &663961620
 GameObject:
@@ -2809,6 +2869,18 @@ MonoBehaviour:
       - m_Target: {fileID: 663961626}
         m_TargetAssemblyTypeName: Choose3, Assembly-CSharp
         m_MethodName: BeingClicable
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 663961626}
+        m_TargetAssemblyTypeName: Choose.BaseChoose, Assembly-CSharp
+        m_MethodName: SendOnClickEvent
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -3309,6 +3381,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 754623679}
+        m_TargetAssemblyTypeName: Choose.BaseChoose, Assembly-CSharp
+        m_MethodName: SendOnClickEvent
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &754623677
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3702,7 +3786,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 23
+  m_RootOrder: 24
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &783973509
 GameObject:
@@ -3734,7 +3818,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 24
+  m_RootOrder: 25
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &783973512
 MonoBehaviour:
@@ -3854,6 +3938,18 @@ MonoBehaviour:
       - m_Target: {fileID: 796946901}
         m_TargetAssemblyTypeName: Choose10, Assembly-CSharp
         m_MethodName: BeingClicable
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 796946901}
+        m_TargetAssemblyTypeName: Choose.BaseChoose, Assembly-CSharp
+        m_MethodName: SendOnClickEvent
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -4171,6 +4267,18 @@ MonoBehaviour:
       - m_Target: {fileID: 858862174}
         m_TargetAssemblyTypeName: Choose15, Assembly-CSharp
         m_MethodName: BeingClicable
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 858862174}
+        m_TargetAssemblyTypeName: Choose.BaseChoose, Assembly-CSharp
+        m_MethodName: SendOnClickEvent
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -4508,7 +4616,7 @@ Transform:
   - {fileID: 742633360}
   - {fileID: 1509034559}
   m_Father: {fileID: 0}
-  m_RootOrder: 28
+  m_RootOrder: 29
   m_LocalEulerAnglesHint: {x: 152.47299, y: -99.134, z: -187.242}
 --- !u!1 &927964173
 GameObject:
@@ -4744,7 +4852,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 18
+  m_RootOrder: 19
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &957164283
 GameObject:
@@ -4844,7 +4952,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 13
+  m_RootOrder: 14
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!95 &957164289
 Animator:
@@ -5081,7 +5189,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 20
+  m_RootOrder: 21
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &966687908
 GameObject:
@@ -5419,6 +5527,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 1144973197}
+        m_TargetAssemblyTypeName: Choose.BaseChoose, Assembly-CSharp
+        m_MethodName: SendOnClickEvent
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1144973195
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5561,6 +5681,42 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 879af31d35d57024eb7e87a61d67875c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  arrowGogs: {fileID: 8061803671561841940}
+  dice:
+  - {fileID: 6277615344751033995}
+  - {fileID: 1262970185}
+  - {fileID: 894125023}
+  - {fileID: 1696488051}
+  - {fileID: 143214652}
+  - {fileID: 1304363603}
+  baseChooses:
+  - {fileID: 25917589}
+  - {fileID: 1531739938}
+  - {fileID: 663961626}
+  - {fileID: 1740424752}
+  - {fileID: 446039788}
+  - {fileID: 2086672504}
+  - {fileID: 1354892722}
+  - {fileID: 1668535456}
+  - {fileID: 542689567}
+  - {fileID: 796946901}
+  - {fileID: 1144973197}
+  - {fileID: 2124921343}
+  - {fileID: 125901538}
+  - {fileID: 68021002}
+  - {fileID: 858862174}
+  - {fileID: 754623679}
+  markScript:
+  - {fileID: 1463350745}
+  - {fileID: 263168486}
+  - {fileID: 513378321}
+  - {fileID: 1337445550}
+  - {fileID: 955640849}
+  - {fileID: 1785395967}
+  - {fileID: 962656659}
+  - {fileID: 2002782882}
+  - {fileID: 633269862}
+  lastSetOfMarks: 
 --- !u!4 &1204107748
 Transform:
   m_ObjectHideFlags: 0
@@ -5574,7 +5730,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 32
+  m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1228517376
 GameObject:
@@ -6183,7 +6339,7 @@ Transform:
   - {fileID: 1351150018}
   - {fileID: 808179019}
   m_Father: {fileID: 0}
-  m_RootOrder: 27
+  m_RootOrder: 28
   m_LocalEulerAnglesHint: {x: 152.47299, y: -99.134, z: -187.242}
 --- !u!1 &1304363601
 GameObject:
@@ -6325,7 +6481,7 @@ Transform:
   - {fileID: 1322718620}
   - {fileID: 1787026407}
   m_Father: {fileID: 0}
-  m_RootOrder: 30
+  m_RootOrder: 31
   m_LocalEulerAnglesHint: {x: 152.47299, y: -99.134, z: -187.242}
 --- !u!1 &1322718617
 GameObject:
@@ -6505,7 +6661,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 17
+  m_RootOrder: 18
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1339511413
 GameObject:
@@ -6771,6 +6927,18 @@ MonoBehaviour:
       - m_Target: {fileID: 1354892722}
         m_TargetAssemblyTypeName: Choose7, Assembly-CSharp
         m_MethodName: BeingClicable
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1354892722}
+        m_TargetAssemblyTypeName: Choose.BaseChoose, Assembly-CSharp
+        m_MethodName: SendOnClickEvent
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -7169,7 +7337,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 14
+  m_RootOrder: 15
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1463350745
 MonoBehaviour:
@@ -7304,7 +7472,7 @@ RectTransform:
   - {fileID: 668465919}
   - {fileID: 883379179}
   m_Father: {fileID: 0}
-  m_RootOrder: 12
+  m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -7470,6 +7638,18 @@ MonoBehaviour:
       - m_Target: {fileID: 1531739938}
         m_TargetAssemblyTypeName: Choose2, Assembly-CSharp
         m_MethodName: BeingClicable
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1531739938}
+        m_TargetAssemblyTypeName: Choose.BaseChoose, Assembly-CSharp
+        m_MethodName: SendOnClickEvent
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -7871,6 +8051,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 1668535456}
+        m_TargetAssemblyTypeName: Choose.BaseChoose, Assembly-CSharp
+        m_MethodName: SendOnClickEvent
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1668535454
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8123,7 +8315,7 @@ Transform:
   - {fileID: 1168807818}
   - {fileID: 833513227}
   m_Father: {fileID: 0}
-  m_RootOrder: 26
+  m_RootOrder: 27
   m_LocalEulerAnglesHint: {x: 152.47299, y: -99.134, z: -187.242}
 --- !u!1 &1740424746
 GameObject:
@@ -8212,6 +8404,18 @@ MonoBehaviour:
       - m_Target: {fileID: 1740424752}
         m_TargetAssemblyTypeName: Choose4, Assembly-CSharp
         m_MethodName: BeingClicable
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1740424752}
+        m_TargetAssemblyTypeName: Choose.BaseChoose, Assembly-CSharp
+        m_MethodName: SendOnClickEvent
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -8665,7 +8869,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 19
+  m_RootOrder: 20
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1787026404
 GameObject:
@@ -9163,7 +9367,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 21
+  m_RootOrder: 22
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2068497122
 GameObject:
@@ -9311,6 +9515,18 @@ MonoBehaviour:
       - m_Target: {fileID: 2086672504}
         m_TargetAssemblyTypeName: Choose6, Assembly-CSharp
         m_MethodName: BeingClicable
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 2086672504}
+        m_TargetAssemblyTypeName: Choose.BaseChoose, Assembly-CSharp
+        m_MethodName: SendOnClickEvent
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -9520,6 +9736,18 @@ MonoBehaviour:
       - m_Target: {fileID: 2124921343}
         m_TargetAssemblyTypeName: Choose12, Assembly-CSharp
         m_MethodName: BeingClicable
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 2124921343}
+        m_TargetAssemblyTypeName: Choose.BaseChoose, Assembly-CSharp
+        m_MethodName: SendOnClickEvent
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -12157,7 +12385,7 @@ Transform:
   - {fileID: 6277615344146130583}
   - {fileID: 6277615343606367619}
   m_Father: {fileID: 0}
-  m_RootOrder: 25
+  m_RootOrder: 26
   m_LocalEulerAnglesHint: {x: 152.47299, y: -99.134, z: -187.242}
 --- !u!33 &6277615344751033997
 MeshFilter:
