@@ -40,8 +40,7 @@ public struct LineHappy
 [System.Serializable]
 public class Stranger : ScriptableObject
 {
- 
-    public Stranger stranger;
+    
     public string nameClient;
     public Marks[] enumValue;
     public BodyType bodyType;

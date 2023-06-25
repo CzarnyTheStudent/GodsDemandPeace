@@ -2,13 +2,14 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Choose1 : MonoBehaviour
+public class Choose : MonoBehaviour
 {
    
-    public Marks[] enumsToCheck;
-    public Stranger anotherScript;
+    public Marks[] enumsToCheck; 
+    public Stranger[] anotherScript;
     public Metrics metrics;
     public CameraController cameraController;
+    private int iiii;
 
     public void BeingClicable()
     {
@@ -17,7 +18,11 @@ public class Choose1 : MonoBehaviour
             
             if (anotherScript != null)
             {
-                Marks[] enumValue = anotherScript.GetEnumValue();
+                for (int i = 0; i < anotherScript.Length; i++)
+                {
+                    iiii = i;
+                }
+                Marks[] enumValue = anotherScript[iiii].enumValue;
 
                 bool isMatching = false;
 

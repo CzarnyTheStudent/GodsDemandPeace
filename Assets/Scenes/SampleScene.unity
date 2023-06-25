@@ -208,7 +208,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 25917589}
-        m_TargetAssemblyTypeName: Choose1, Assembly-CSharp
+        m_TargetAssemblyTypeName: Choose, Assembly-CSharp
         m_MethodName: BeingClicable
         m_Mode: 1
         m_Arguments:
@@ -270,7 +270,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enumsToCheck: 0000000002000000
-  anotherScript: {fileID: 11400000, guid: a1236caa7e015ee418bf8020beac5dc9, type: 2}
+  anotherScript:
+  - {fileID: 11400000, guid: bd238699483d68743b54ecf8ac879414, type: 2}
+  - {fileID: 11400000, guid: a24299d3267f43e488ee32b5b53fdd53, type: 2}
+  - {fileID: 11400000, guid: 019f6caa64d1ec641813c65a1f2b2dbd, type: 2}
+  - {fileID: 11400000, guid: a1236caa7e015ee418bf8020beac5dc9, type: 2}
   metrics: {fileID: 11400000, guid: 32e78b32bb94a4847a8962486009ee89, type: 2}
   cameraController: {fileID: 330585549}
 --- !u!1 &68020996
@@ -286,6 +290,7 @@ GameObject:
   - component: {fileID: 68021000}
   - component: {fileID: 68020999}
   - component: {fileID: 68021002}
+  - component: {fileID: 68021003}
   m_Layer: 5
   m_Name: Button_13
   m_TagString: Untagged
@@ -357,8 +362,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 68021002}
-        m_TargetAssemblyTypeName: Choose14, Assembly-CSharp
+      - m_Target: {fileID: 25917589}
+        m_TargetAssemblyTypeName: Choose, Assembly-CSharp
         m_MethodName: BeingClicable
         m_Mode: 1
         m_Arguments:
@@ -421,6 +426,26 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   enumsToCheck: 0700000008000000
   anotherScript: {fileID: 11400000, guid: a1236caa7e015ee418bf8020beac5dc9, type: 2}
+  metrics: {fileID: 11400000, guid: 32e78b32bb94a4847a8962486009ee89, type: 2}
+  cameraController: {fileID: 330585549}
+--- !u!114 &68021003
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 68020996}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ca0cebffca5cac04da7b6039c64576e5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enumsToCheck: 
+  anotherScript:
+  - {fileID: 11400000, guid: bd238699483d68743b54ecf8ac879414, type: 2}
+  - {fileID: 11400000, guid: a24299d3267f43e488ee32b5b53fdd53, type: 2}
+  - {fileID: 11400000, guid: 019f6caa64d1ec641813c65a1f2b2dbd, type: 2}
+  - {fileID: 11400000, guid: a1236caa7e015ee418bf8020beac5dc9, type: 2}
   metrics: {fileID: 11400000, guid: 32e78b32bb94a4847a8962486009ee89, type: 2}
   cameraController: {fileID: 330585549}
 --- !u!1 &86088754 stripped
@@ -527,6 +552,7 @@ GameObject:
   - component: {fileID: 125901536}
   - component: {fileID: 125901535}
   - component: {fileID: 125901538}
+  - component: {fileID: 125901539}
   m_Layer: 5
   m_Name: Button_12
   m_TagString: Untagged
@@ -598,8 +624,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 125901538}
-        m_TargetAssemblyTypeName: Choose13, Assembly-CSharp
+      - m_Target: {fileID: 25917589}
+        m_TargetAssemblyTypeName: Choose, Assembly-CSharp
         m_MethodName: BeingClicable
         m_Mode: 1
         m_Arguments:
@@ -662,6 +688,26 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   enumsToCheck: 0500000007000000
   anotherScript: {fileID: 11400000, guid: a1236caa7e015ee418bf8020beac5dc9, type: 2}
+  metrics: {fileID: 11400000, guid: 32e78b32bb94a4847a8962486009ee89, type: 2}
+  cameraController: {fileID: 330585549}
+--- !u!114 &125901539
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 125901532}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ca0cebffca5cac04da7b6039c64576e5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enumsToCheck: 
+  anotherScript:
+  - {fileID: 11400000, guid: bd238699483d68743b54ecf8ac879414, type: 2}
+  - {fileID: 11400000, guid: a24299d3267f43e488ee32b5b53fdd53, type: 2}
+  - {fileID: 11400000, guid: 019f6caa64d1ec641813c65a1f2b2dbd, type: 2}
+  - {fileID: 11400000, guid: a1236caa7e015ee418bf8020beac5dc9, type: 2}
   metrics: {fileID: 11400000, guid: 32e78b32bb94a4847a8962486009ee89, type: 2}
   cameraController: {fileID: 330585549}
 --- !u!1 &138792568
@@ -1997,6 +2043,7 @@ GameObject:
   - component: {fileID: 446039786}
   - component: {fileID: 446039785}
   - component: {fileID: 446039788}
+  - component: {fileID: 446039789}
   m_Layer: 5
   m_Name: Button_4
   m_TagString: Untagged
@@ -2068,8 +2115,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 446039788}
-        m_TargetAssemblyTypeName: Choose5, Assembly-CSharp
+      - m_Target: {fileID: 25917589}
+        m_TargetAssemblyTypeName: Choose, Assembly-CSharp
         m_MethodName: BeingClicable
         m_Mode: 1
         m_Arguments:
@@ -2132,6 +2179,26 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   enumsToCheck: 0600000001000000
   anotherScript: {fileID: 11400000, guid: a1236caa7e015ee418bf8020beac5dc9, type: 2}
+  metrics: {fileID: 11400000, guid: 32e78b32bb94a4847a8962486009ee89, type: 2}
+  cameraController: {fileID: 330585549}
+--- !u!114 &446039789
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 446039782}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ca0cebffca5cac04da7b6039c64576e5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enumsToCheck: 
+  anotherScript:
+  - {fileID: 11400000, guid: bd238699483d68743b54ecf8ac879414, type: 2}
+  - {fileID: 11400000, guid: a24299d3267f43e488ee32b5b53fdd53, type: 2}
+  - {fileID: 11400000, guid: 019f6caa64d1ec641813c65a1f2b2dbd, type: 2}
+  - {fileID: 11400000, guid: a1236caa7e015ee418bf8020beac5dc9, type: 2}
   metrics: {fileID: 11400000, guid: 32e78b32bb94a4847a8962486009ee89, type: 2}
   cameraController: {fileID: 330585549}
 --- !u!1 &455115376
@@ -2464,6 +2531,7 @@ GameObject:
   - component: {fileID: 542689565}
   - component: {fileID: 542689564}
   - component: {fileID: 542689567}
+  - component: {fileID: 542689568}
   m_Layer: 5
   m_Name: Button_8
   m_TagString: Untagged
@@ -2535,8 +2603,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 542689567}
-        m_TargetAssemblyTypeName: Choose9, Assembly-CSharp
+      - m_Target: {fileID: 25917589}
+        m_TargetAssemblyTypeName: Choose, Assembly-CSharp
         m_MethodName: BeingClicable
         m_Mode: 1
         m_Arguments:
@@ -2599,6 +2667,26 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   enumsToCheck: 0300000007000000
   anotherScript: {fileID: 11400000, guid: a1236caa7e015ee418bf8020beac5dc9, type: 2}
+  metrics: {fileID: 11400000, guid: 32e78b32bb94a4847a8962486009ee89, type: 2}
+  cameraController: {fileID: 330585549}
+--- !u!114 &542689568
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 542689561}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ca0cebffca5cac04da7b6039c64576e5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enumsToCheck: 
+  anotherScript:
+  - {fileID: 11400000, guid: bd238699483d68743b54ecf8ac879414, type: 2}
+  - {fileID: 11400000, guid: a24299d3267f43e488ee32b5b53fdd53, type: 2}
+  - {fileID: 11400000, guid: 019f6caa64d1ec641813c65a1f2b2dbd, type: 2}
+  - {fileID: 11400000, guid: a1236caa7e015ee418bf8020beac5dc9, type: 2}
   metrics: {fileID: 11400000, guid: 32e78b32bb94a4847a8962486009ee89, type: 2}
   cameraController: {fileID: 330585549}
 --- !u!1 &633269861
@@ -2735,6 +2823,7 @@ GameObject:
   - component: {fileID: 663961624}
   - component: {fileID: 663961623}
   - component: {fileID: 663961626}
+  - component: {fileID: 663961627}
   m_Layer: 5
   m_Name: Button_2
   m_TagString: Untagged
@@ -2806,8 +2895,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 663961626}
-        m_TargetAssemblyTypeName: Choose3, Assembly-CSharp
+      - m_Target: {fileID: 25917589}
+        m_TargetAssemblyTypeName: Choose, Assembly-CSharp
         m_MethodName: BeingClicable
         m_Mode: 1
         m_Arguments:
@@ -2870,6 +2959,26 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   enumsToCheck: 0000000005000000
   anotherScript: {fileID: 11400000, guid: a1236caa7e015ee418bf8020beac5dc9, type: 2}
+  metrics: {fileID: 11400000, guid: 32e78b32bb94a4847a8962486009ee89, type: 2}
+  cameraController: {fileID: 330585549}
+--- !u!114 &663961627
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 663961620}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ca0cebffca5cac04da7b6039c64576e5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enumsToCheck: 
+  anotherScript:
+  - {fileID: 11400000, guid: bd238699483d68743b54ecf8ac879414, type: 2}
+  - {fileID: 11400000, guid: a24299d3267f43e488ee32b5b53fdd53, type: 2}
+  - {fileID: 11400000, guid: 019f6caa64d1ec641813c65a1f2b2dbd, type: 2}
+  - {fileID: 11400000, guid: a1236caa7e015ee418bf8020beac5dc9, type: 2}
   metrics: {fileID: 11400000, guid: 32e78b32bb94a4847a8962486009ee89, type: 2}
   cameraController: {fileID: 330585549}
 --- !u!1 &668465918
@@ -3297,8 +3406,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 754623679}
-        m_TargetAssemblyTypeName: Choose16, Assembly-CSharp
+      - m_Target: {fileID: 25917589}
+        m_TargetAssemblyTypeName: Choose, Assembly-CSharp
         m_MethodName: BeingClicable
         m_Mode: 1
         m_Arguments:
@@ -3356,11 +3465,15 @@ MonoBehaviour:
   m_GameObject: {fileID: 754623673}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 895dc58c30e2421499407a8d4f019c3e, type: 3}
+  m_Script: {fileID: 11500000, guid: ca0cebffca5cac04da7b6039c64576e5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  enumsToCheck: 030000000700000004000000
-  anotherScript: {fileID: 11400000, guid: a1236caa7e015ee418bf8020beac5dc9, type: 2}
+  enumsToCheck: 
+  anotherScript:
+  - {fileID: 11400000, guid: bd238699483d68743b54ecf8ac879414, type: 2}
+  - {fileID: 11400000, guid: a24299d3267f43e488ee32b5b53fdd53, type: 2}
+  - {fileID: 11400000, guid: 019f6caa64d1ec641813c65a1f2b2dbd, type: 2}
+  - {fileID: 11400000, guid: a1236caa7e015ee418bf8020beac5dc9, type: 2}
   metrics: {fileID: 11400000, guid: 32e78b32bb94a4847a8962486009ee89, type: 2}
   cameraController: {fileID: 330585549}
 --- !u!1 &767371831
@@ -3780,6 +3893,7 @@ GameObject:
   - component: {fileID: 796946899}
   - component: {fileID: 796946898}
   - component: {fileID: 796946901}
+  - component: {fileID: 796946902}
   m_Layer: 5
   m_Name: Button_9
   m_TagString: Untagged
@@ -3851,8 +3965,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 796946901}
-        m_TargetAssemblyTypeName: Choose10, Assembly-CSharp
+      - m_Target: {fileID: 25917589}
+        m_TargetAssemblyTypeName: Choose, Assembly-CSharp
         m_MethodName: BeingClicable
         m_Mode: 1
         m_Arguments:
@@ -3915,6 +4029,26 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   enumsToCheck: 0400000005000000
   anotherScript: {fileID: 11400000, guid: a1236caa7e015ee418bf8020beac5dc9, type: 2}
+  metrics: {fileID: 11400000, guid: 32e78b32bb94a4847a8962486009ee89, type: 2}
+  cameraController: {fileID: 330585549}
+--- !u!114 &796946902
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 796946895}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ca0cebffca5cac04da7b6039c64576e5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enumsToCheck: 
+  anotherScript:
+  - {fileID: 11400000, guid: bd238699483d68743b54ecf8ac879414, type: 2}
+  - {fileID: 11400000, guid: a24299d3267f43e488ee32b5b53fdd53, type: 2}
+  - {fileID: 11400000, guid: 019f6caa64d1ec641813c65a1f2b2dbd, type: 2}
+  - {fileID: 11400000, guid: a1236caa7e015ee418bf8020beac5dc9, type: 2}
   metrics: {fileID: 11400000, guid: 32e78b32bb94a4847a8962486009ee89, type: 2}
   cameraController: {fileID: 330585549}
 --- !u!1 &808179016
@@ -4097,6 +4231,7 @@ GameObject:
   - component: {fileID: 858862172}
   - component: {fileID: 858862171}
   - component: {fileID: 858862174}
+  - component: {fileID: 858862175}
   m_Layer: 5
   m_Name: Button_14
   m_TagString: Untagged
@@ -4168,8 +4303,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 858862174}
-        m_TargetAssemblyTypeName: Choose15, Assembly-CSharp
+      - m_Target: {fileID: 25917589}
+        m_TargetAssemblyTypeName: Choose, Assembly-CSharp
         m_MethodName: BeingClicable
         m_Mode: 1
         m_Arguments:
@@ -4232,6 +4367,26 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   enumsToCheck: 040000000000000001000000
   anotherScript: {fileID: 11400000, guid: a1236caa7e015ee418bf8020beac5dc9, type: 2}
+  metrics: {fileID: 11400000, guid: 32e78b32bb94a4847a8962486009ee89, type: 2}
+  cameraController: {fileID: 330585549}
+--- !u!114 &858862175
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 858862168}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ca0cebffca5cac04da7b6039c64576e5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enumsToCheck: 
+  anotherScript:
+  - {fileID: 11400000, guid: bd238699483d68743b54ecf8ac879414, type: 2}
+  - {fileID: 11400000, guid: a24299d3267f43e488ee32b5b53fdd53, type: 2}
+  - {fileID: 11400000, guid: 019f6caa64d1ec641813c65a1f2b2dbd, type: 2}
+  - {fileID: 11400000, guid: a1236caa7e015ee418bf8020beac5dc9, type: 2}
   metrics: {fileID: 11400000, guid: 32e78b32bb94a4847a8962486009ee89, type: 2}
   cameraController: {fileID: 330585549}
 --- !u!1 &883379178
@@ -5336,6 +5491,7 @@ GameObject:
   - component: {fileID: 1144973195}
   - component: {fileID: 1144973194}
   - component: {fileID: 1144973197}
+  - component: {fileID: 1144973198}
   m_Layer: 5
   m_Name: Button_10
   m_TagString: Untagged
@@ -5407,8 +5563,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1144973197}
-        m_TargetAssemblyTypeName: Choose11, Assembly-CSharp
+      - m_Target: {fileID: 25917589}
+        m_TargetAssemblyTypeName: Choose, Assembly-CSharp
         m_MethodName: BeingClicable
         m_Mode: 1
         m_Arguments:
@@ -5471,6 +5627,26 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   enumsToCheck: 0400000008000000
   anotherScript: {fileID: 11400000, guid: a1236caa7e015ee418bf8020beac5dc9, type: 2}
+  metrics: {fileID: 11400000, guid: 32e78b32bb94a4847a8962486009ee89, type: 2}
+  cameraController: {fileID: 330585549}
+--- !u!114 &1144973198
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1144973191}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ca0cebffca5cac04da7b6039c64576e5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enumsToCheck: 
+  anotherScript:
+  - {fileID: 11400000, guid: bd238699483d68743b54ecf8ac879414, type: 2}
+  - {fileID: 11400000, guid: a24299d3267f43e488ee32b5b53fdd53, type: 2}
+  - {fileID: 11400000, guid: 019f6caa64d1ec641813c65a1f2b2dbd, type: 2}
+  - {fileID: 11400000, guid: a1236caa7e015ee418bf8020beac5dc9, type: 2}
   metrics: {fileID: 11400000, guid: 32e78b32bb94a4847a8962486009ee89, type: 2}
   cameraController: {fileID: 330585549}
 --- !u!1 &1168807815
@@ -5561,6 +5737,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 879af31d35d57024eb7e87a61d67875c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  arrowGogs: {fileID: 0}
+  dice: {fileID: 0}
 --- !u!4 &1204107748
 Transform:
   m_ObjectHideFlags: 0
@@ -6697,6 +6875,7 @@ GameObject:
   - component: {fileID: 1354892720}
   - component: {fileID: 1354892719}
   - component: {fileID: 1354892722}
+  - component: {fileID: 1354892723}
   m_Layer: 5
   m_Name: Button_6
   m_TagString: Untagged
@@ -6768,8 +6947,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1354892722}
-        m_TargetAssemblyTypeName: Choose7, Assembly-CSharp
+      - m_Target: {fileID: 25917589}
+        m_TargetAssemblyTypeName: Choose, Assembly-CSharp
         m_MethodName: BeingClicable
         m_Mode: 1
         m_Arguments:
@@ -6832,6 +7011,26 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   enumsToCheck: 0000000001000000
   anotherScript: {fileID: 11400000, guid: a1236caa7e015ee418bf8020beac5dc9, type: 2}
+  metrics: {fileID: 11400000, guid: 32e78b32bb94a4847a8962486009ee89, type: 2}
+  cameraController: {fileID: 330585549}
+--- !u!114 &1354892723
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1354892716}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ca0cebffca5cac04da7b6039c64576e5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enumsToCheck: 
+  anotherScript:
+  - {fileID: 11400000, guid: bd238699483d68743b54ecf8ac879414, type: 2}
+  - {fileID: 11400000, guid: a24299d3267f43e488ee32b5b53fdd53, type: 2}
+  - {fileID: 11400000, guid: 019f6caa64d1ec641813c65a1f2b2dbd, type: 2}
+  - {fileID: 11400000, guid: a1236caa7e015ee418bf8020beac5dc9, type: 2}
   metrics: {fileID: 11400000, guid: 32e78b32bb94a4847a8962486009ee89, type: 2}
   cameraController: {fileID: 330585549}
 --- !u!1001 &1357953544
@@ -7467,8 +7666,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1531739938}
-        m_TargetAssemblyTypeName: Choose2, Assembly-CSharp
+      - m_Target: {fileID: 25917589}
+        m_TargetAssemblyTypeName: Choose, Assembly-CSharp
         m_MethodName: BeingClicable
         m_Mode: 1
         m_Arguments:
@@ -7526,11 +7725,15 @@ MonoBehaviour:
   m_GameObject: {fileID: 1531739932}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d227348cbbb904340b54074433ca2cd9, type: 3}
+  m_Script: {fileID: 11500000, guid: ca0cebffca5cac04da7b6039c64576e5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  enumsToCheck: 0000000001000000
-  anotherScript: {fileID: 11400000, guid: a1236caa7e015ee418bf8020beac5dc9, type: 2}
+  enumsToCheck: 
+  anotherScript:
+  - {fileID: 11400000, guid: bd238699483d68743b54ecf8ac879414, type: 2}
+  - {fileID: 11400000, guid: a24299d3267f43e488ee32b5b53fdd53, type: 2}
+  - {fileID: 11400000, guid: 019f6caa64d1ec641813c65a1f2b2dbd, type: 2}
+  - {fileID: 11400000, guid: a1236caa7e015ee418bf8020beac5dc9, type: 2}
   metrics: {fileID: 11400000, guid: 32e78b32bb94a4847a8962486009ee89, type: 2}
   cameraController: {fileID: 330585549}
 --- !u!1 &1579140086
@@ -7788,6 +7991,7 @@ GameObject:
   - component: {fileID: 1668535454}
   - component: {fileID: 1668535453}
   - component: {fileID: 1668535456}
+  - component: {fileID: 1668535457}
   m_Layer: 5
   m_Name: Button_7
   m_TagString: Untagged
@@ -7859,8 +8063,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1668535456}
-        m_TargetAssemblyTypeName: Choose8, Assembly-CSharp
+      - m_Target: {fileID: 25917589}
+        m_TargetAssemblyTypeName: Choose, Assembly-CSharp
         m_MethodName: BeingClicable
         m_Mode: 1
         m_Arguments:
@@ -7923,6 +8127,26 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   enumsToCheck: 0300000006000000
   anotherScript: {fileID: 11400000, guid: a1236caa7e015ee418bf8020beac5dc9, type: 2}
+  metrics: {fileID: 11400000, guid: 32e78b32bb94a4847a8962486009ee89, type: 2}
+  cameraController: {fileID: 330585549}
+--- !u!114 &1668535457
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1668535450}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ca0cebffca5cac04da7b6039c64576e5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enumsToCheck: 
+  anotherScript:
+  - {fileID: 11400000, guid: bd238699483d68743b54ecf8ac879414, type: 2}
+  - {fileID: 11400000, guid: a24299d3267f43e488ee32b5b53fdd53, type: 2}
+  - {fileID: 11400000, guid: 019f6caa64d1ec641813c65a1f2b2dbd, type: 2}
+  - {fileID: 11400000, guid: a1236caa7e015ee418bf8020beac5dc9, type: 2}
   metrics: {fileID: 11400000, guid: 32e78b32bb94a4847a8962486009ee89, type: 2}
   cameraController: {fileID: 330585549}
 --- !u!1 &1687703344
@@ -8138,6 +8362,7 @@ GameObject:
   - component: {fileID: 1740424750}
   - component: {fileID: 1740424749}
   - component: {fileID: 1740424752}
+  - component: {fileID: 1740424753}
   m_Layer: 5
   m_Name: Button_3
   m_TagString: Untagged
@@ -8209,8 +8434,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1740424752}
-        m_TargetAssemblyTypeName: Choose4, Assembly-CSharp
+      - m_Target: {fileID: 25917589}
+        m_TargetAssemblyTypeName: Choose, Assembly-CSharp
         m_MethodName: BeingClicable
         m_Mode: 1
         m_Arguments:
@@ -8273,6 +8498,26 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   enumsToCheck: 0100000003000000
   anotherScript: {fileID: 11400000, guid: a1236caa7e015ee418bf8020beac5dc9, type: 2}
+  metrics: {fileID: 11400000, guid: 32e78b32bb94a4847a8962486009ee89, type: 2}
+  cameraController: {fileID: 330585549}
+--- !u!114 &1740424753
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1740424746}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ca0cebffca5cac04da7b6039c64576e5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enumsToCheck: 
+  anotherScript:
+  - {fileID: 11400000, guid: bd238699483d68743b54ecf8ac879414, type: 2}
+  - {fileID: 11400000, guid: a24299d3267f43e488ee32b5b53fdd53, type: 2}
+  - {fileID: 11400000, guid: 019f6caa64d1ec641813c65a1f2b2dbd, type: 2}
+  - {fileID: 11400000, guid: a1236caa7e015ee418bf8020beac5dc9, type: 2}
   metrics: {fileID: 11400000, guid: 32e78b32bb94a4847a8962486009ee89, type: 2}
   cameraController: {fileID: 330585549}
 --- !u!1 &1745297316
@@ -9237,6 +9482,7 @@ GameObject:
   - component: {fileID: 2086672502}
   - component: {fileID: 2086672501}
   - component: {fileID: 2086672504}
+  - component: {fileID: 2086672505}
   m_Layer: 5
   m_Name: Button_5
   m_TagString: Untagged
@@ -9308,8 +9554,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 2086672504}
-        m_TargetAssemblyTypeName: Choose6, Assembly-CSharp
+      - m_Target: {fileID: 25917589}
+        m_TargetAssemblyTypeName: Choose, Assembly-CSharp
         m_MethodName: BeingClicable
         m_Mode: 1
         m_Arguments:
@@ -9372,6 +9618,26 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   enumsToCheck: 0200000007000000
   anotherScript: {fileID: 11400000, guid: a1236caa7e015ee418bf8020beac5dc9, type: 2}
+  metrics: {fileID: 11400000, guid: 32e78b32bb94a4847a8962486009ee89, type: 2}
+  cameraController: {fileID: 330585549}
+--- !u!114 &2086672505
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2086672498}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ca0cebffca5cac04da7b6039c64576e5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enumsToCheck: 
+  anotherScript:
+  - {fileID: 11400000, guid: bd238699483d68743b54ecf8ac879414, type: 2}
+  - {fileID: 11400000, guid: a24299d3267f43e488ee32b5b53fdd53, type: 2}
+  - {fileID: 11400000, guid: 019f6caa64d1ec641813c65a1f2b2dbd, type: 2}
+  - {fileID: 11400000, guid: a1236caa7e015ee418bf8020beac5dc9, type: 2}
   metrics: {fileID: 11400000, guid: 32e78b32bb94a4847a8962486009ee89, type: 2}
   cameraController: {fileID: 330585549}
 --- !u!1 &2109393249
@@ -9446,6 +9712,7 @@ GameObject:
   - component: {fileID: 2124921341}
   - component: {fileID: 2124921340}
   - component: {fileID: 2124921343}
+  - component: {fileID: 2124921344}
   m_Layer: 5
   m_Name: Button_11
   m_TagString: Untagged
@@ -9517,8 +9784,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 2124921343}
-        m_TargetAssemblyTypeName: Choose12, Assembly-CSharp
+      - m_Target: {fileID: 25917589}
+        m_TargetAssemblyTypeName: Choose, Assembly-CSharp
         m_MethodName: BeingClicable
         m_Mode: 1
         m_Arguments:
@@ -9581,6 +9848,26 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   enumsToCheck: 0500000006000000
   anotherScript: {fileID: 11400000, guid: a1236caa7e015ee418bf8020beac5dc9, type: 2}
+  metrics: {fileID: 11400000, guid: 32e78b32bb94a4847a8962486009ee89, type: 2}
+  cameraController: {fileID: 330585549}
+--- !u!114 &2124921344
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2124921337}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ca0cebffca5cac04da7b6039c64576e5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enumsToCheck: 
+  anotherScript:
+  - {fileID: 11400000, guid: bd238699483d68743b54ecf8ac879414, type: 2}
+  - {fileID: 11400000, guid: a24299d3267f43e488ee32b5b53fdd53, type: 2}
+  - {fileID: 11400000, guid: 019f6caa64d1ec641813c65a1f2b2dbd, type: 2}
+  - {fileID: 11400000, guid: a1236caa7e015ee418bf8020beac5dc9, type: 2}
   metrics: {fileID: 11400000, guid: 32e78b32bb94a4847a8962486009ee89, type: 2}
   cameraController: {fileID: 330585549}
 --- !u!1 &2134390959
