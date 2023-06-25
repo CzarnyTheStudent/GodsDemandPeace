@@ -276,6 +276,7 @@ MonoBehaviour:
   - {fileID: 0}
   metrics: {fileID: 11400000, guid: 32e78b32bb94a4847a8962486009ee89, type: 2}
   cameraController: {fileID: 330585549}
+  changeTheV: 0
 --- !u!1 &68020996
 GameObject:
   m_ObjectHideFlags: 0
@@ -422,10 +423,134 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0dd27996824f6ab4ba4b21105c40fbe9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  enumsToCheck: 0700000008000000
-  anotherScript: {fileID: 11400000, guid: a1236caa7e015ee418bf8020beac5dc9, type: 2}
-  metrics: {fileID: 11400000, guid: 32e78b32bb94a4847a8962486009ee89, type: 2}
-  cameraController: {fileID: 330585549}
+--- !u!1 &84590481
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 84590483}
+  - component: {fileID: 84590482}
+  m_Layer: 0
+  m_Name: "Audio Pie\u015B\u0144"
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!82 &84590482
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 84590481}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: 967a96b16ca4eb4409eb41e65b859046, type: 3}
+  m_PlayOnAwake: 1
+  m_Volume: 0.43
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+--- !u!4 &84590483
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 84590481}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -1.7, y: 71.8, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 1
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 34
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &86088754 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 388d12f5261aa914ba1ce3e1e4806525,
@@ -657,10 +782,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d062bbbf3cc308644bb8b9c3e772313f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  enumsToCheck: 0500000007000000
-  anotherScript: {fileID: 11400000, guid: a1236caa7e015ee418bf8020beac5dc9, type: 2}
-  metrics: {fileID: 11400000, guid: 32e78b32bb94a4847a8962486009ee89, type: 2}
-  cameraController: {fileID: 330585549}
 --- !u!1 &138792568
 GameObject:
   m_ObjectHideFlags: 0
@@ -1897,10 +2018,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ac2c59faed10124a90b8309b0d1dbd9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  enumsToCheck: 0600000001000000
-  anotherScript: {fileID: 11400000, guid: a1236caa7e015ee418bf8020beac5dc9, type: 2}
-  metrics: {fileID: 11400000, guid: 32e78b32bb94a4847a8962486009ee89, type: 2}
-  cameraController: {fileID: 330585549}
 --- !u!1 &455115376
 GameObject:
   m_ObjectHideFlags: 0
@@ -2364,10 +2481,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d057883040705b04f8788c0b9e59aaec, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  enumsToCheck: 0300000007000000
-  anotherScript: {fileID: 11400000, guid: a1236caa7e015ee418bf8020beac5dc9, type: 2}
-  metrics: {fileID: 11400000, guid: 32e78b32bb94a4847a8962486009ee89, type: 2}
-  cameraController: {fileID: 330585549}
 --- !u!1 &633269861
 GameObject:
   m_ObjectHideFlags: 0
@@ -2635,10 +2748,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ba21e9d53807b71419daa5013a297c1a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  enumsToCheck: 0000000005000000
-  anotherScript: {fileID: 11400000, guid: a1236caa7e015ee418bf8020beac5dc9, type: 2}
-  metrics: {fileID: 11400000, guid: 32e78b32bb94a4847a8962486009ee89, type: 2}
-  cameraController: {fileID: 330585549}
 --- !u!1 &668465918
 GameObject:
   m_ObjectHideFlags: 0
@@ -3126,10 +3235,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 895dc58c30e2421499407a8d4f019c3e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  enumsToCheck: 030000000700000004000000
-  anotherScript: {fileID: 11400000, guid: a1236caa7e015ee418bf8020beac5dc9, type: 2}
-  metrics: {fileID: 11400000, guid: 32e78b32bb94a4847a8962486009ee89, type: 2}
-  cameraController: {fileID: 330585549}
 --- !u!1 &778581395
 GameObject:
   m_ObjectHideFlags: 0
@@ -3450,10 +3555,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b499db90b4dc6ea4ea724eca1f24a147, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  enumsToCheck: 0400000005000000
-  anotherScript: {fileID: 11400000, guid: a1236caa7e015ee418bf8020beac5dc9, type: 2}
-  metrics: {fileID: 11400000, guid: 32e78b32bb94a4847a8962486009ee89, type: 2}
-  cameraController: {fileID: 330585549}
 --- !u!1 &808179016
 GameObject:
   m_ObjectHideFlags: 0
@@ -3767,10 +3868,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8ded497ba3e70f440931ada6bd278664, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  enumsToCheck: 040000000000000001000000
-  anotherScript: {fileID: 11400000, guid: a1236caa7e015ee418bf8020beac5dc9, type: 2}
-  metrics: {fileID: 11400000, guid: 32e78b32bb94a4847a8962486009ee89, type: 2}
-  cameraController: {fileID: 330585549}
 --- !u!1 &883379178
 GameObject:
   m_ObjectHideFlags: 0
@@ -4732,6 +4829,134 @@ Transform:
   m_Father: {fileID: 143214656}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &971826503
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 971826505}
+  - component: {fileID: 971826504}
+  m_Layer: 0
+  m_Name: Audio 2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!82 &971826504
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 971826503}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: 7f1693a3d2f089144ab79b3e48fadb55, type: 3}
+  m_PlayOnAwake: 1
+  m_Volume: 0.13
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 178
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+--- !u!4 &971826505
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 971826503}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -23.7, y: 71.8, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 1
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 35
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!65 &1020857412
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -5146,10 +5371,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e45524b2611e5a641911c6b8b12354cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  enumsToCheck: 0400000008000000
-  anotherScript: {fileID: 11400000, guid: a1236caa7e015ee418bf8020beac5dc9, type: 2}
-  metrics: {fileID: 11400000, guid: 32e78b32bb94a4847a8962486009ee89, type: 2}
-  cameraController: {fileID: 330585549}
 --- !u!1 &1168807815
 GameObject:
   m_ObjectHideFlags: 0
@@ -6394,10 +6615,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 53f7d04452605c4448bce2da8987ebb0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  enumsToCheck: 0000000001000000
-  anotherScript: {fileID: 11400000, guid: a1236caa7e015ee418bf8020beac5dc9, type: 2}
-  metrics: {fileID: 11400000, guid: 32e78b32bb94a4847a8962486009ee89, type: 2}
-  cameraController: {fileID: 330585549}
 --- !u!1001 &1357953544
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7087,10 +7304,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d227348cbbb904340b54074433ca2cd9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  enumsToCheck: 0000000001000000
-  anotherScript: {fileID: 11400000, guid: a1236caa7e015ee418bf8020beac5dc9, type: 2}
-  metrics: {fileID: 11400000, guid: 32e78b32bb94a4847a8962486009ee89, type: 2}
-  cameraController: {fileID: 330585549}
 --- !u!1001 &1577062554
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7469,10 +7682,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 11d2562925db4c44d99b6445648c5600, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  enumsToCheck: 0300000006000000
-  anotherScript: {fileID: 11400000, guid: a1236caa7e015ee418bf8020beac5dc9, type: 2}
-  metrics: {fileID: 11400000, guid: 32e78b32bb94a4847a8962486009ee89, type: 2}
-  cameraController: {fileID: 330585549}
 --- !u!1 &1687703344
 GameObject:
   m_ObjectHideFlags: 0
@@ -7819,10 +8028,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 79da6e2d651c0514e99c6a96f34e194f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  enumsToCheck: 0100000003000000
-  anotherScript: {fileID: 11400000, guid: a1236caa7e015ee418bf8020beac5dc9, type: 2}
-  metrics: {fileID: 11400000, guid: 32e78b32bb94a4847a8962486009ee89, type: 2}
-  cameraController: {fileID: 330585549}
 --- !u!1 &1751838988
 GameObject:
   m_ObjectHideFlags: 0
@@ -8896,10 +9101,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 043835f565068cc4cb3541bc280c00e3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  enumsToCheck: 0200000007000000
-  anotherScript: {fileID: 11400000, guid: a1236caa7e015ee418bf8020beac5dc9, type: 2}
-  metrics: {fileID: 11400000, guid: 32e78b32bb94a4847a8962486009ee89, type: 2}
-  cameraController: {fileID: 330585549}
 --- !u!1 &2094772178
 GameObject:
   m_ObjectHideFlags: 0
@@ -9137,10 +9338,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f5a8493cb7fed80408edab43d9073723, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  enumsToCheck: 0500000006000000
-  anotherScript: {fileID: 11400000, guid: a1236caa7e015ee418bf8020beac5dc9, type: 2}
-  metrics: {fileID: 11400000, guid: 32e78b32bb94a4847a8962486009ee89, type: 2}
-  cameraController: {fileID: 330585549}
 --- !u!1 &2134390959
 GameObject:
   m_ObjectHideFlags: 0
