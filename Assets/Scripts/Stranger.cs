@@ -41,7 +41,7 @@ public struct LineHappy
 public class Stranger : ScriptableObject
 {
  
-    public Stranger stranger;
+    //public Stranger stranger;
     public string nameClient;
     public Marks[] enumValue;
     public BodyType bodyType;

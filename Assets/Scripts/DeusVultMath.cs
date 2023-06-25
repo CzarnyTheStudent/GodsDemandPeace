@@ -13,7 +13,7 @@ public class DeusVultMath : MonoBehaviour
 
    public MarkScript[] markScript;
    public Marks[] lastSetOfMarks;
-   public string SavedMark;
+   public Enum SavedMark;
    
    
    private void Awake()
@@ -34,13 +34,13 @@ public class DeusVultMath : MonoBehaviour
          {
             if (enums[j] == markScript[i].mark)
             {
-               SavedMark = markScript[i].mark.ToString();
-                //Debug.Log(markScript[i]);
+               SavedMark = markScript[i].mark;
+               //Debug.Log(markScript[i]);
             }
          }
       }
       
-      SavedMark
+      
       
    }
 

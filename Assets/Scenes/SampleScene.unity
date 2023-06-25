@@ -814,6 +814,7 @@ MonoBehaviour:
   - {fileID: 970456891}
   - {fileID: 161668522}
   rb: {fileID: 143214653}
+  markCollider: {fileID: 0}
 --- !u!54 &143214653
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -1317,12 +1318,14 @@ MonoBehaviour:
   chooseMade: 
   trackedMarks: {fileID: 11400000, guid: 02aa6c2d25a9ede44b58390a14b74974, type: 2}
   dice:
-  - {fileID: 6277615344751033713}
-  - {fileID: 1696488049}
-  - {fileID: 1262970183}
-  - {fileID: 894125021}
-  - {fileID: 143214650}
-  - {fileID: 1304363601}
+  - {fileID: 6277615344751033995}
+  - {fileID: 1696488051}
+  - {fileID: 1262970185}
+  - {fileID: 894125023}
+  - {fileID: 143214652}
+  - {fileID: 1304363603}
+  parentObjectName: 
+  markValue: 0
 --- !u!64 &263168487
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -2355,12 +2358,14 @@ MonoBehaviour:
   chooseMade: 
   trackedMarks: {fileID: 11400000, guid: 02aa6c2d25a9ede44b58390a14b74974, type: 2}
   dice:
-  - {fileID: 6277615344751033713}
-  - {fileID: 1696488049}
-  - {fileID: 1262970183}
-  - {fileID: 894125021}
-  - {fileID: 143214650}
-  - {fileID: 1304363601}
+  - {fileID: 6277615344751033995}
+  - {fileID: 1696488051}
+  - {fileID: 1262970185}
+  - {fileID: 894125023}
+  - {fileID: 143214652}
+  - {fileID: 1304363603}
+  parentObjectName: 
+  markValue: 0
 --- !u!64 &513378322
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -2697,12 +2702,14 @@ MonoBehaviour:
   chooseMade: 
   trackedMarks: {fileID: 11400000, guid: 02aa6c2d25a9ede44b58390a14b74974, type: 2}
   dice:
-  - {fileID: 6277615344751033713}
-  - {fileID: 1696488049}
-  - {fileID: 1262970183}
-  - {fileID: 894125021}
-  - {fileID: 143214650}
-  - {fileID: 1304363601}
+  - {fileID: 6277615344751033995}
+  - {fileID: 1696488051}
+  - {fileID: 1262970185}
+  - {fileID: 894125023}
+  - {fileID: 143214652}
+  - {fileID: 1304363603}
+  parentObjectName: 
+  markValue: 0
 --- !u!64 &633269863
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -4531,6 +4538,7 @@ MonoBehaviour:
   - {fileID: 742633357}
   - {fileID: 1509034556}
   rb: {fileID: 894125024}
+  markCollider: {fileID: 0}
 --- !u!54 &894125024
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -4769,12 +4777,14 @@ MonoBehaviour:
   chooseMade: 
   trackedMarks: {fileID: 11400000, guid: 02aa6c2d25a9ede44b58390a14b74974, type: 2}
   dice:
-  - {fileID: 6277615344751033713}
-  - {fileID: 1696488049}
-  - {fileID: 1262970183}
-  - {fileID: 894125021}
-  - {fileID: 143214650}
-  - {fileID: 1304363601}
+  - {fileID: 6277615344751033995}
+  - {fileID: 1696488051}
+  - {fileID: 1262970185}
+  - {fileID: 894125023}
+  - {fileID: 143214652}
+  - {fileID: 1304363603}
+  parentObjectName: 
+  markValue: 0
 --- !u!64 &955640850
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -5106,12 +5116,14 @@ MonoBehaviour:
   chooseMade: 
   trackedMarks: {fileID: 11400000, guid: 02aa6c2d25a9ede44b58390a14b74974, type: 2}
   dice:
-  - {fileID: 6277615344751033713}
-  - {fileID: 1696488049}
-  - {fileID: 1262970183}
-  - {fileID: 894125021}
-  - {fileID: 143214650}
-  - {fileID: 1304363601}
+  - {fileID: 6277615344751033995}
+  - {fileID: 1696488051}
+  - {fileID: 1262970185}
+  - {fileID: 894125023}
+  - {fileID: 143214652}
+  - {fileID: 1304363603}
+  parentObjectName: 
+  markValue: 0
 --- !u!64 &962656660
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -5717,6 +5729,7 @@ MonoBehaviour:
   - {fileID: 2002782882}
   - {fileID: 633269862}
   lastSetOfMarks: 
+  SavedMark: 
 --- !u!4 &1204107748
 Transform:
   m_ObjectHideFlags: 0
@@ -6254,6 +6267,7 @@ MonoBehaviour:
   - {fileID: 1351150015}
   - {fileID: 808179016}
   rb: {fileID: 1262970186}
+  markCollider: {fileID: 0}
 --- !u!54 &1262970186
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -6396,6 +6410,7 @@ MonoBehaviour:
   - {fileID: 1322718617}
   - {fileID: 1787026404}
   rb: {fileID: 1304363604}
+  markCollider: {fileID: 0}
 --- !u!54 &1304363604
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -6578,12 +6593,14 @@ MonoBehaviour:
   chooseMade: 
   trackedMarks: {fileID: 11400000, guid: 02aa6c2d25a9ede44b58390a14b74974, type: 2}
   dice:
-  - {fileID: 6277615344751033713}
-  - {fileID: 1696488049}
-  - {fileID: 1262970183}
-  - {fileID: 894125021}
-  - {fileID: 143214650}
-  - {fileID: 1304363601}
+  - {fileID: 6277615344751033995}
+  - {fileID: 1696488051}
+  - {fileID: 1262970185}
+  - {fileID: 894125023}
+  - {fileID: 143214652}
+  - {fileID: 1304363603}
+  parentObjectName: 
+  markValue: 0
 --- !u!64 &1337445551
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -7355,12 +7372,14 @@ MonoBehaviour:
   chooseMade: 
   trackedMarks: {fileID: 11400000, guid: 02aa6c2d25a9ede44b58390a14b74974, type: 2}
   dice:
-  - {fileID: 6277615344751033713}
-  - {fileID: 1696488049}
-  - {fileID: 1262970183}
-  - {fileID: 894125021}
-  - {fileID: 143214650}
-  - {fileID: 1304363601}
+  - {fileID: 6277615344751033995}
+  - {fileID: 1696488051}
+  - {fileID: 1262970185}
+  - {fileID: 894125023}
+  - {fileID: 143214652}
+  - {fileID: 1304363603}
+  parentObjectName: 
+  markValue: 0
 --- !u!1 &1502812049
 GameObject:
   m_ObjectHideFlags: 0
@@ -8230,6 +8249,7 @@ MonoBehaviour:
   - {fileID: 1168807815}
   - {fileID: 833513224}
   rb: {fileID: 1696488052}
+  markCollider: {fileID: 0}
 --- !u!54 &1696488052
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -8786,12 +8806,14 @@ MonoBehaviour:
   chooseMade: 
   trackedMarks: {fileID: 11400000, guid: 02aa6c2d25a9ede44b58390a14b74974, type: 2}
   dice:
-  - {fileID: 6277615344751033713}
-  - {fileID: 1696488049}
-  - {fileID: 1262970183}
-  - {fileID: 894125021}
-  - {fileID: 143214650}
-  - {fileID: 1304363601}
+  - {fileID: 6277615344751033995}
+  - {fileID: 1696488051}
+  - {fileID: 1262970185}
+  - {fileID: 894125023}
+  - {fileID: 143214652}
+  - {fileID: 1304363603}
+  parentObjectName: 
+  markValue: 0
 --- !u!64 &1785395968
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -9284,12 +9306,14 @@ MonoBehaviour:
   chooseMade: 
   trackedMarks: {fileID: 11400000, guid: 02aa6c2d25a9ede44b58390a14b74974, type: 2}
   dice:
-  - {fileID: 6277615344751033713}
-  - {fileID: 1696488049}
-  - {fileID: 1262970183}
-  - {fileID: 894125021}
-  - {fileID: 143214650}
-  - {fileID: 1304363601}
+  - {fileID: 6277615344751033995}
+  - {fileID: 1696488051}
+  - {fileID: 1262970185}
+  - {fileID: 894125023}
+  - {fileID: 143214652}
+  - {fileID: 1304363603}
+  parentObjectName: 
+  markValue: 0
 --- !u!64 &2002782883
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -12366,6 +12390,7 @@ MonoBehaviour:
   - {fileID: 6277615344146130584}
   - {fileID: 6277615343606367620}
   rb: {fileID: 6277615344751033712}
+  markCollider: {fileID: 0}
 --- !u!4 &6277615344751033996
 Transform:
   m_ObjectHideFlags: 0

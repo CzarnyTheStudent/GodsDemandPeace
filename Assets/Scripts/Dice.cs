@@ -9,6 +9,9 @@ public class Dice : MonoBehaviour
     public int cubeValue;
     public GameObject[] objectsToCompare;
     public Rigidbody rb;
+    
+    //public MarkScript mS;
+    public Collider markCollider;
 
     private void Start()
     {
@@ -26,6 +29,8 @@ public class Dice : MonoBehaviour
         {
             GameObject highestObject = GetHighestObject(objectsToCompare);
             cubeValue = highestObject.GetComponent<Value>().valueY;
+
+           
         }
     }
     
@@ -50,4 +55,6 @@ public class Dice : MonoBehaviour
 
         return highestObject;
     }
+
+    
 }

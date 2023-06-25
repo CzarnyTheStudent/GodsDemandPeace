@@ -26,6 +26,7 @@ namespace Choose
             
             if (anotherScript != null)
             {
+                
                 Marks[] enumValue = anotherScript.GetEnumValue();
 
                 bool isMatching = false;

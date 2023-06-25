@@ -37,8 +37,9 @@ public class MarkScript : MonoBehaviour
     public Marks mark;
     public int[] chooseMade;
     public TrackedMarks trackedMarks;
-    public List<GameObject> dice = new List<GameObject>();
-    public string parentObjectName;
+    public Dice[] dice;  
+  
+    public int markValue = 0;
 
 
     private void Start()
@@ -52,6 +53,8 @@ public class MarkScript : MonoBehaviour
         foreach (Marks marks in trackedMarks.trackedMarks)
         {
         }
+        
+        
     }
     public GameObject GetParentWithoutIsTrigger(GameObject childObject)
     {
@@ -80,8 +83,23 @@ public class MarkScript : MonoBehaviour
             GameObject parentObject = GetParentWithoutIsTrigger(_dice.gameObject);
             if (parentObject != null)
             {
-                 parentObjectName = parentObject.name;
+                 parentObjectName = parentObject;
 
+                 if (parentObjectName)
+                 {
+                     if (_dice.CompareTag("GoodDice"))
+                     {
+                         markValue -= dice[].cubeValue;
+                     }
+                     
+                     if (_dice.CompareTag("BadDice"))
+                     {
+                         markValue += dice[].cubeValue;
+                     }
+                 }
+                     
+                   
+                
                 // Wyświetl nazwę nadrzędnego obiektu w konsoli
                 Debug.Log("Nazwa nadrzędnego obiektu: " + parentObjectName);
             }
